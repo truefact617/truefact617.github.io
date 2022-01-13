@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="icon" 
+        type="image/png"
+        href="favicon.png">
+    <title>True Fact Music</title>
+</head>
+<body>
+    
+    <!-- Portrait -->
+    <img src="assets/portrait.png" alt="True Fact portrait image could not load." class="portrait">
+
+    <!-- Signature -->
+    <img class="signature" src="assets/signature.png">
+
+    <!-- Links -->
+    <div class="links">
+        <a href="https://open.spotify.com/artist/5kUQhu7VOlGcM2w0UymgtS?si=BQ9CqZFOTfSM8MfCcsNH5g&dl_branch=1" class="links-items-odd">Spotify</a>
+        <!-- <a href="https://music.youtube.com/channel/UCDhgRj9d2rL90GQTww4tXRQ" class="links-items">YouTube Music</a> -->
+        <a href="https://music.apple.com/us/artist/true-fact/1555547627" class="links-items-even">Apple Music</a>
+        <a href="https://soundcloud.com/user-611372225" class="links-items-odd">SoundCloud</a>
+
+        <a href="https://www.instagram.com/east.coast.monsters/" class="links-items-even">East Coast Monsters</a>
+        <a href="https://www.instagram.com/truefact617/" class="links-items-odd">Instagram</a>
+        <!-- <a href="mailto:ecmrap181@gmail.com" class="links-items-even" id="email-button">Email</a> -->
+    </div>
+
+    <div class="icons">
+        <img class="icons-items" src="assets/icons/spotify.svg">
+        <img class="icons-items" src="assets/icons/apple-music.svg">
+        <img class="icons-items" src="assets/icons/soundcloud.svg">
+        <img class="icons-items" src="assets/icons/youtube.svg">
+        <img class="icons-items" src="assets/icons/instagram.svg">
+        <img class="icons-items" src="assets/icons/facebook.svg">
+    </div>
+
+    <div class="bottom-text">
+        For business inquiries, please contact<br><a class="email" href="mailto:ecmrap181@gmail.com">ecmrap181@gmail.com</a>
+    </div>
+
+    <div class="sitesbysamchambers">
+        <a class="samchambers" href="https://github.com/SamChambers">sitesbysam</a>
+    </div>
+ 
+</body>
+
+<style>
+    @font-face {
+        font-family: 'Name';
+        src: url(assets/fonts/name/VictorianText.ttf);
+    }
+    @font-face {
+        font-family: 'Links';
+        src: url(assets/fonts/links/sedgwick-ave-display.regular.ttf);
+    }
+
+    body {
+        background: rgb(117,117,117);
+        background: radial-gradient(circle, rgba(117,117,117,1) 0%, rgba(129,129,129,1) 16%, rgba(167,165,165,1) 33%, rgba(190,190,190,1) 50%, rgba(217,215,215,1) 64%, rgba(255,255,255,1) 77%);
+        /* background: url("assets/background.png"); */
+        background-size: contain;
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .portrait {
+        /* border-radius: 50%; */
+        /* border: 1px solid rgba(24, 45, 161, 0.938); */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: auto;
+        max-width: 175px;
+        box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+    }
+
+    .name {
+        font-family: 'Name';
+        font-size: 50px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    .signature {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        max-width: 275px;
+    }
+
+    .links {
+        padding-bottom: 25px;
+    } .links-headers {
+        font-family: 'OldeEnglish';
+        font-weight: lighter;
+        color: blanchedalmond;
+        font-size: 50px;
+        text-align: center;
+    } .links-items-odd {
+        box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+        display: block;
+        font-family: 'Links';
+        text-align: center;
+        font-size: 30px;
+        margin-top: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        /* border: 5px solid rgb(0, 0, 0); */
+        width: 300px;
+        color: rgb(255, 255, 255);
+        transition: 1500ms; 
+        text-decoration: none;
+        /* background: url(assets/background-links.jpg); */
+        background: rgb(19,71,60);
+        background: radial-gradient(circle, rgba(19,71,60,1) 0%, rgba(94,119,114,1) 100%);
+        }
+        .links-items-even {
+        display: block;
+        font-family: 'Links';
+        text-align: center;
+        font-size: 30px;
+        margin-top: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        /* border: 5px solid rgb(0, 0, 0); */
+        width: 300px;
+        color: rgb(255, 255, 255);
+        transition: 1500ms; 
+        text-decoration: none;
+        /* background: url(assets/background-links.jpg); */
+        box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+        background: rgb(19,71,60);
+        background: radial-gradient(circle, rgba(19,71,60,1) 0%, rgba(94,119,114,1) 100%);
+        } .links-items-icon {
+        max-width: 25%;
+        max-height: 25%;
+    } .links-items-odd:hover {
+        transform: skewX(-10deg);
+        color: #000;
+        background: rgba(255, 255, 255, 0.623);
+    } .links-items-even:hover {
+        transform: skewX(10deg);
+        color: #000;
+        background: rgba(255, 255, 255, 0.623);
+    }
+
+    .icons {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        justify-self: center;
+    }
+    .icons-items {
+        max-height: 50px;
+        max-width: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    /* #email-button {
+        font-size: 24px;
+        background: url(assets/truefact-ufo_bad.png);
+    } */
+
+    .bottom-text {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }   p.bottom-text {
+        font-size: 14px;
+    }   .email {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    .sitesbysamchambers {
+        text-align: center;
+        color: rgb(221, 221, 221);
+        padding-bottom: 15px;
+    }   .samchambers {
+        color: rgb(82, 82, 82);
+        text-decoration: underline;
+    }
+</style>
+
+</html>
