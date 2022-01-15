@@ -23,18 +23,25 @@
         <a href="https://music.apple.com/us/artist/true-fact/1555547627" class="links-items-even">Apple Music</a>
         <a href="https://soundcloud.com/user-611372225" class="links-items-odd">SoundCloud</a>
 
-        <a href="https://www.instagram.com/east.coast.monsters/" class="links-items-even">East Coast Monsters</a>
+        <a href="https://facebook.com/ecmonstersma" class="links-items-even">Facebook</a>
         <a href="https://www.instagram.com/truefact617/" class="links-items-odd">Instagram</a>
-        <!-- <a href="mailto:ecmrap181@gmail.com" class="links-items-even" id="email-button">Email</a> -->
     </div>
 
     <div class="icons">
-        <img class="icons-items" src="assets/icons/spotify.svg">
-        <img class="icons-items" src="assets/icons/apple-music.svg">
-        <img class="icons-items" src="assets/icons/soundcloud.svg">
-        <img class="icons-items" src="assets/icons/youtube.svg">
-        <img class="icons-items" src="assets/icons/instagram.svg">
-        <img class="icons-items" src="assets/icons/facebook.svg">
+        <a class="icons-items" href="https://open.spotify.com/artist/5kUQhu7VOlGcM2w0UymgtS?si=BQ9CqZFOTfSM8MfCcsNH5g&dl_branch=1"><img src="assets/icons/spotify.svg"></a>
+        <a class="icons-items" href="https://music.apple.com/us/artist/true-fact/1555547627"><img src="assets/icons/apple-music.svg"></a>
+        <a class="icons-items" href="https://soundcloud.com/user-611372225"><img src="assets/icons/soundcloud.svg"></a>
+        <!-- <a class="icons-items" href=""><img src="assets/icons/youtube.svg"></a> -->
+        <a class="icons-items" href="https://www.instagram.com/truefact617/"><img src="assets/icons/instagram.svg"></a>
+        <a class="icons-items" href="https://facebook.com/ecmonstersma"><img src="assets/icons/facebook.svg"></a>
+    </div>
+
+
+    <h2>LABEL</h2>
+    <div id="label">
+        <a href="https://eastcoastmonsters.com">
+            <img src="assets/eastcoastmonsters.png">
+        </a>
     </div>
 
     <div class="bottom-text">
@@ -115,7 +122,8 @@
         margin-right: auto;
         padding: 20px;
         /* border: 5px solid rgb(0, 0, 0); */
-        width: 300px;
+        max-width: 75%;
+        height: 30px;
         color: rgb(255, 255, 255);
         transition: 1500ms; 
         text-decoration: none;
@@ -133,7 +141,8 @@
         margin-right: auto;
         padding: 20px;
         /* border: 5px solid rgb(0, 0, 0); */
-        width: 300px;
+        max-width: 75%;
+        height: 30px;
         color: rgb(255, 255, 255);
         transition: 1500ms; 
         text-decoration: none;
@@ -155,20 +164,56 @@
     }
 
     .icons {
+        padding-bottom: 10px;
         display: flex;
-        align-self: center;
+        width: 350px;
+        max-height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    } .icons-items {
+        display: block;
         align-items: center;
-        justify-self: center;
-    }
-    .icons-items {
-        max-height: 50px;
-        max-width: 50px;
-        margin-left: 5px;
-        margin-right: 5px;
-        align-self: center;
-        justify-self: center;
+        width: 200px;
+        padding-left: 2px;
+        padding-right: 2px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* max-width: 30%;
+        max-height: 30%; */
+        text-decoration: none;
+    } .icons-items img {
+        max-width: 100%;
+        max-height: 100%;
     }
     
+    h2 {
+        text-align: center;
+        font-family: 'Links';
+        font-size: 30px;
+    }
+
+    #label { 
+        display: block;
+        box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+        background: radial-gradient(circle, rgba(19,71,60,1) 0%, rgba(94,119,114,1) 100%);
+        max-width: 350px;
+        height: 125px;
+        transition: 1500ms;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    } #label:hover {
+        background: rgb(0, 0, 0);
+    } #label a img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #label p {
+        padding-top: 10px;
+    }
+
+
     /* #email-button {
         font-size: 24px;
         background: url(assets/truefact-ufo_bad.png);
